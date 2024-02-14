@@ -13,7 +13,7 @@ export function CreateInvoice() {
     );
 }
 
-export function DeleteInvoice() {
+export function DeleteInvoice({id}: {id:string}) {
     return (
         <>
           <button className="rounded-md border p-2 hover:bg-gray-100">
@@ -22,7 +22,7 @@ export function DeleteInvoice() {
           </button>
         </>
       );
-}
+} 
 
 export function UpdateInvoice({id}: {id:string}) {
     return (
