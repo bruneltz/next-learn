@@ -18,7 +18,7 @@ export default function InvoiceStatus({status} : {status:string}) {
             ) : null}
             {status === 'paid' ? (
                 <>
-                Pending <CheckIcon className='ml-1 w-4 text-gray-500'/>
+                Paid <CheckIcon className='ml-1 w-4 text-gray-500'/>
                 </>
             ) : null}
         </span>
